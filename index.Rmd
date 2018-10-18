@@ -1,0 +1,37 @@
+---
+title: "Apresentação teste"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Uma seção
+
+## Título do slide
+
+Esta é uma apresentação em Markdown <http://rmarkdown.rstudio.com>.
+
+Quando você clica em **Knit** é gerado um documento que inclui tanto o conteúdo quanto as saídas do R nos chunks.
+
+## Slide com tópicos
+- tópico x
+- tópico 1
+- tópico 2
+- tópico 3
+
+Teste
+
+## Slide com uma saída do R 
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide com gráfico 
+
+```{r pressure}
+plot(pressure)
+```
+
